@@ -17,27 +17,27 @@ import {
 
 import { Loader2 } from "lucide-react";
 
-import Category_amazon from "@/assets/BrandLogo/category_amazon.png";
-import Category_flipkart from "@/assets/BrandLogo/category_flipkart.png";
-import Category_ajio from "@/assets/BrandLogo/category_ajio.png";
-import Category_myntra from "@/assets/BrandLogo/category_myntra.png";
-import Category_ebay from "@/assets/BrandLogo/category_ebay.png";
-import Category_nykaa from "@/assets/BrandLogo/category_nykaa.png";
-import Category_Etsy from "@/assets/BrandLogo/category_etsy.png";
-import Category_meessho from "@/assets/BrandLogo/category_meesho.png";
+import category_amazon from "@/assets/BrandLogo/category_amazon.png";
+import category_flipkart from "@/assets/BrandLogo/category_flipkart.png";
+import category_ajio from "@/assets/BrandLogo/category_ajio.png";
+import category_myntra from "@/assets/BrandLogo/category_myntra.png";
+import category_ebay from "@/assets/BrandLogo/category_ebay.png";
+import category_nykaa from "@/assets/BrandLogo/category_nykaa.png";
+import category_Etsy from "@/assets/BrandLogo/category_etsy.png";
+import category_meessho from "@/assets/BrandLogo/category_meesho.png";
 
 // ------------------------------------
 // Website Config
 // ------------------------------------
 const WEBSITES = [
-  { id: "amazon", logo: Category_amazon },
-  { id: "flipkart", logo: Category_flipkart },
-  { id: "ajio",  logo: Category_ajio },
-  { id: "myntra",  logo: Category_myntra },
-  { id: "ebay",  logo: Category_ebay },
-  { id: "nykaa",  logo: Category_nykaa },
-  { id: "etsy",  logo: Category_Etsy },
-  { id: "meesho", logo: Category_meessho },
+  { id: "amazon", logo: category_amazon },
+  { id: "flipkart", logo: category_flipkart },
+  { id: "ajio",  logo: category_ajio },
+  { id: "myntra",  logo: category_myntra },
+  { id: "ebay",  logo: category_ebay },
+  { id: "nykaa",  logo: category_nykaa },
+  { id: "etsy",  logo: category_Etsy },
+  { id: "meesho", logo: category_meessho },
 ];
 
 // ------------------------------------
