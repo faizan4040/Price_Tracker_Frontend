@@ -17,18 +17,19 @@ import {
 
 import { Loader2 } from "lucide-react";
 
-import category_amazon from "@/assets/BrandLogo/category_amazon.png";
-import category_flipkart from "@/assets/BrandLogo/category_flipkart.png";
-import category_ajio from "@/assets/BrandLogo/category_ajio.png";
-import category_myntra from "@/assets/BrandLogo/category_myntra.png";
-import category_ebay from "@/assets/BrandLogo/category_ebay.png";
-import category_nykaa from "@/assets/BrandLogo/category_nykaa.png";
-import category_Etsy from "@/assets/BrandLogo/category_etsy.png";
-import category_meessho from "@/assets/BrandLogo/category_meesho.png";
+import category_amazon from "../../../assets/BrandLogo/category_amazon.png";
+import category_flipkart from "../../../assets/BrandLogo/category_flipkart.png";
+import category_ajio from "../../../assets/BrandLogo/category_ajio.png";
+import category_myntra from "../../../assets/BrandLogo/category_myntra.png";
+import category_ebay from "../../../assets/BrandLogo/category_ebay.png";
+import category_nykaa from "../../../assets/BrandLogo/category_nykaa.png";
+import category_Etsy from "../../../assets/BrandLogo/category_etsy.png";
+import category_meessho from "../../../assets/BrandLogo/category_meesho.png";
 
 // ------------------------------------
 // Website Config
 // ------------------------------------
+
 const WEBSITES = [
   { id: "amazon", logo: category_amazon },
   { id: "flipkart", logo: category_flipkart },
