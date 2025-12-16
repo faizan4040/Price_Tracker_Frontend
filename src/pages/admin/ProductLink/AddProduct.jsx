@@ -19,7 +19,7 @@ import { Loader2 } from "lucide-react";
 
 import category_amazon from "../../../assets/BrandLogo/category_amazon.png";
 import category_flipkart from "../../../assets/BrandLogo/category_flipkart.png";
-import category_ajio from "../../../assets/BrandLogo/category_ajio.png";
+// import category_ajio from "../../../assets/BrandLogo/category_ajio.png";
 import category_myntra from "../../../assets/BrandLogo/category_myntra.png";
 import category_ebay from "../../../assets/BrandLogo/category_ebay.png";
 import category_nykaa from "../../../assets/BrandLogo/category_nykaa.png";
@@ -33,7 +33,7 @@ import category_meessho from "../../../assets/BrandLogo/category_meesho.png";
 const WEBSITES = [
   { id: "amazon", logo: category_amazon },
   { id: "flipkart", logo: category_flipkart },
-  { id: "ajio",  logo: category_ajio },
+  // { id: "ajio",  logo: category_ajio },
   { id: "myntra",  logo: category_myntra },
   { id: "ebay",  logo: category_ebay },
   { id: "nykaa",  logo: category_nykaa },
