@@ -2,7 +2,7 @@ import { TiSocialFacebook } from "react-icons/ti";
 import { RiTwitterXLine } from "react-icons/ri";
 import { FaInstagram, FaYoutube } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
-import qr from "@/assets/BrandLogo/QR.png";
+// import qr from "@/assets/BrandLogo/QR.png";
 import playstore from "@/assets/BrandLogo/playstore.webp";
 import chrome from "@/assets/BrandLogo/chrome.webp";
 import telegram from "@/assets/BrandLogo/telegram.webp";
@@ -168,11 +168,11 @@ const Footer = () => {
             <h3 className="font-bold text-2xl mb-3 text-white">Get It On</h3>
             {/* QR */}
             <div>
-              <img
+              {/* <img
                 src={qr}
                 alt="QR Code"
                 className="w-32 h-32 md:w-57 md:h-52 -mr-1 object-contain"
-              />
+              /> */}
             </div>
 
             {/* Buttons */}
