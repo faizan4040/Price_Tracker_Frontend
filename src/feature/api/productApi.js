@@ -7,9 +7,9 @@ import { fetchBaseQuery } from "@reduxjs/toolkit/query";
 //   return res.data;
 // };
 
-const PRODUCT_API = `${import.meta.env.VITE_API_BASE_URL}/api/v1/product`;
+const PRODUCT_API = "https://price-tracker-backend-1.onrender.com/api/v1/product";
 
-export const courseApi = createApi({
+export const ProductApi = createApi({
   reducerPath:"ProductApi",
   baseQuery:fetchBaseQuery({
     baseUrl:PRODUCT_API,

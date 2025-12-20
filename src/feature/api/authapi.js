@@ -1,7 +1,7 @@
 import { createApi, fetchBaseQuery,  } from "@reduxjs/toolkit/query/react";
 import { userLoggedIn, userLoggedOut } from "../authSlice";
 
-const USER_API = `${import.meta.env.VITE_API_BASE_URL}/api/v1/user`;
+const USER_API = "https://price-tracker-backend-1.onrender.com/api/v1/user/"
 
 export const authApi = createApi({
   reducerPath: "authApi",

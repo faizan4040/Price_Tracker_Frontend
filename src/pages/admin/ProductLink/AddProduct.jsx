@@ -95,19 +95,15 @@ const AddProduct = () => {
     setIsLoading(true);
     setMessage("");
 
-    try {
-      // Backend Scrape API Request
-    const response = await fetch(
-    `${import.meta.env.VITE_API_BASE_URL}/api/v1/products/scrape`,
-    {
+  try {
+    const response = await fetch("https://price-tracker-backend-1.onrender.com/api/v1/products/scrape", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         url: productLink,
         category: selectedCategory,
       }),
-    }
-  );
+    });
 
 
       if (!response.ok) {

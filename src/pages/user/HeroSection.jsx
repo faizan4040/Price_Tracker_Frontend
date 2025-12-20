@@ -30,18 +30,18 @@ const HeroSection = () => {
       return alert("Invalid link. Please enter a valid product URL");
     }
 
-    try {
+     try {
       setLoading(true);
       setMessage("");
 
-     const response = await fetch(
-      `${import.meta.env.VITE_API_BASE_URL}/api/v1/products/scrape-only`,
-      {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ url: searchPrompt }),
-      }
-    );
+      const response = await fetch(
+        "https://price-tracker-backend-1.onrender.com/api/v1/products/scrape-only",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ url: searchPrompt }),
+        }
+      );
 
 
       const data = await response.json();
