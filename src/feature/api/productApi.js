@@ -7,7 +7,7 @@ import { fetchBaseQuery } from "@reduxjs/toolkit/query";
 //   return res.data;
 // };
 
-const PRODUCT_API = "https://localhost:8000/api/v1/course";
+const PRODUCT_API = `${import.meta.env.VITE_API_BASE_URL}/api/v1/product`;
 
 export const courseApi = createApi({
   reducerPath:"ProductApi",
